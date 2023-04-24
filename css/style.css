@@ -1,0 +1,48 @@
+input, select {
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: blue;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+}
+
+.btn:hover {
+  background-color: darkblue;
+}
+
+.error-message, .success-message {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.error-message {
+  background-color: pink;
+  color: red;
+}
+
+.success-message {
+  background-color: lightgreen;
+  color: green;
+}
